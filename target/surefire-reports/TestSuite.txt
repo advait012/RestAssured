@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 49.394 s <<< FAILURE! - in TestSuite
+post(RestAPI.RestAssuredAPIFramework.tests.Delete)  Time elapsed: 0.371 s  <<< FAILURE!
+java.lang.IllegalArgumentException: The JSON input text should neither be null nor empty.
+	at RestAPI.RestAssuredAPIFramework.tests.Delete.post(Delete.java:59)
+
+post(RestAPI.RestAssuredAPIFramework.tests.Xmlpost)  Time elapsed: 0.002 s  <<< FAILURE!
+java.nio.file.NoSuchFileException: path
+	at RestAPI.RestAssuredAPIFramework.tests.Xmlpost.generateStringFromResponse(Xmlpost.java:36)
+	at RestAPI.RestAssuredAPIFramework.tests.Xmlpost.post(Xmlpost.java:23)
+
+post(RestAPI.RestAssuredAPIFramework.tests.JsonFile)  Time elapsed: 0.231 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at RestAPI.RestAssuredAPIFramework.tests.JsonFile.post(JsonFile.java:27)
+

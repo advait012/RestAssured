@@ -1,0 +1,12 @@
+RestAPI\RestAssuredAPIFramework\tests\JIRATest.class
+RestAPI\RestAssuredAPIFramework\files\payload.class
+RestAPI\RestAssuredAPIFramework\files\resources.class
+RestAPI\RestAssuredAPIFramework\files\ReusableMethods.class
+RestAPI\RestAssuredAPIFramework\tests\Post.class
+RestAPI\RestAssuredAPIFramework\tests\Xmlpost.class
+RestAPI\RestAssuredAPIFramework\tests\TraverseJsonArrays.class
+RestAPI\RestAssuredAPIFramework\tests\Delete.class
+RestAPI\RestAssuredAPIFramework\tests\JsonFile.class
+RestAPI\RestAssuredAPIFramework\tests\Get.class
+RestAPI\RestAssuredAPIFramework\tests\DynamicJson.class
+RestAPI\RestAssuredAPIFramework\tests\LoggingGetResponse.class

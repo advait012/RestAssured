@@ -1,0 +1,12 @@
+ALways put environment variables in properties files
+Always put body data in payload class
+always put payload data in seperate class , it should never be hardcode . All payoad should not be in one class , make multiple classes based on their 
+type
+
+Google it - how to get project path in java 
+
+All post ,get data in resources class
+
+
+For Extent report , Add dependecy in pom.xml ,Add extent file in resource package , Add listener in testmg.xml 
+Report would be in target>>surefire report 
